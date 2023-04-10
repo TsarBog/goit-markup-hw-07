@@ -504,11 +504,10 @@ align-items: center;
   justify-content: center;
   gap: 72px 16px;
 }
-
-.client-item {
+.client-item{
   
- 
 }
+
 
 .client-title {
   font-weight: 700;
