@@ -19,10 +19,11 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css">
   </head>
   <body>
     <!-- Шапка -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="link accent" href="./index.html"
@@ -56,9 +57,10 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
-    <!-- main content -->
+     <!-- main content  -->
+    
     <main>
       <section class="hero">
         <div class="container">
@@ -66,10 +68,11 @@
           <button class="hero-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
+      
 
       <!-- sections -->
 
-      <section class="list-section">
+     <section class="list-section">
         <div class="container">
           <h2 class="none">info</h2>
           <ul class="list container-list">
@@ -106,34 +109,34 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
 
-      <section class="work-section">
+    <section class="work-section">
         <div class="container">
           <h2 class="work-title">What are we doing</h2>
           <ul class="about-list list">
             <li class="about-item">
-              <img src="./images/comp.jpg" alt="computer" width="360" />
+              <img srcset="./images/comp.jpg 1x, ./images/comp-2x.jpg 2x" src="./images/comp.jpg" alt="computer" width="360" />
             </li>
 
             <li class="about-item">
-              <img src="./images/phone.jpg" alt="phones" width="360" />
+              <img srcset="./images/phone.jpg 1x, ./images/phone-2x.jpg 2x" src="./images/phone.jpg" alt="phones" width="360" />
             </li>
 
             <li class="about-item">
-              <img src="./images/telefone.jpg" alt="telefone" width="360" />
+              <img srcset="./images/telefone.jpg 1x, ./images/telefone-2x.jpg 2x" src="./images/telefone.jpg" alt="telefone" width="360" />
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="team-section">
+     <section class="team-section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
 
           <ul class="team-list list">
             <li class="team-item">
-              <img
+              <img srcset="./images/Mark_Guerrero.jpg 1x, ./images/Mark_Guerrero-2x.jpg 2x"
                 class="foto-list"
                 src="./images/Mark_Guerrero.jpg"
                 alt="ProductDesigner"
@@ -176,7 +179,7 @@
             </li>
 
             <li class="team-item">
-              <img
+              <img srcset="./images/Tom_Ford.jpg 1x, ./images/tom-ford-2x.jpg 2x" 
                 class="foto-list"
                 src="./images/Tom_Ford.jpg"
                 alt="FrontendDeveloper"
@@ -218,7 +221,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+              <img srcset="./images/Camila_Garcia.jpg 1x, ./images/camila-garcia-2x.jpg 2x"
                 class="foto-list"
                 src="./images/Camila_Garcia.jpg"
                 alt="Marketing"
@@ -261,7 +264,7 @@
             </li>
 
             <li class="team-item">
-              <img
+              <img srcset="./images/Daniel_Wilson.jpg 1x, ./images/daniel-wilson-2x.jpg 2x"
                 class="foto-list"
                 src="./images/Daniel_Wilson.jpg"
                 alt="UIDesigner"
@@ -304,11 +307,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
 
       <!-- Customers -->
 
-      <section class="customers">
+     <section class="customers">
         <div class="container">
         <h2  class="client-title">Customers</h2>
         <ul class="client-list list">
@@ -356,11 +359,11 @@
           </li>
         </ul>
         </div>
-      </section>
-    </main>
+      </section> 
+    </main> 
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-footer-icon">
         <div class="footer-container">
         <a href="./index.html" class="footer-logo link"
@@ -418,7 +421,7 @@
             </div>
 
       </div>
-    </footer>
+    </footer> -->
 
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
