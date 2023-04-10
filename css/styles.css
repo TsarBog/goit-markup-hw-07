@@ -65,15 +65,22 @@ img {
   display: block;
   height: auto;
 }
- .header-list {
+  /* .header-list {
    
    align-items: center;
    gap: 40px;
  }
 
+ 
+
  .address {
    font-style: normal;
    
+ } */
+
+ .header-list,
+ .address {
+   display: none;
  }
 .accent {
   font-family: "Raleway", sans-serif;
@@ -90,6 +97,9 @@ img {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  
 }
 
 
@@ -105,12 +115,14 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  align-items: center;
 }
 
 .menu-open-btn {
   border: none;
   background-color: transparent;
   margin-left: auto;
+  padding-left: 16px;
 }
 
 .menu-open-icon {
@@ -206,8 +218,6 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
- 
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,7 +229,7 @@ img {
 }
 
 .modal-close-btn-icon {
-  fill: var(--background-dark);
+  fill: #2E2F42;
 }
 
 /* sections */
