@@ -514,9 +514,8 @@ align-items: center;
   justify-content: center;
   gap: 72px 16px;
 }
-.client-item{
-  
-}
+
+.client-item {}
 
 
 .client-title {
@@ -529,6 +528,7 @@ align-items: center;
   color: var(--primary-text-color);
   margin: 0 0 72px 0;
 }
+
 .client-link {
   width: 168px;
   height: 88px;
@@ -540,11 +540,13 @@ align-items: center;
   color: #8e8f99;
   transition: border-color var(--transition-dur-time),
     color var(--transition-dur-time);
-    
+
 }
+
 .clients-svg {
   fill: currentColor;
 }
+
 .client-link:hover,
 .client-link:focus {
   border-color: #404bbf;
@@ -555,11 +557,20 @@ align-items: center;
 
 .footer {
   background: #2e2f42;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 96px;
+  padding-top: 96px;
   margin: 0 auto;
   display: flex;
+  width: 100% ;
 }
+
+.footer-conrainer{
+  max-width: 264px;
+    margin-left: 0;
+    margin-bottom: 72px;
+}
+
+
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -572,6 +583,8 @@ align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  justify-content: center;
+  margin-bottom: 18px;
 }
 .web-logo {
   color: var(--footer-logo-text);
@@ -586,17 +599,19 @@ align-items: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  margin-bottom: 0;
+  max-width: 264px;
+  margin: 0 auto;
 }
 
 .container-footer-new {
-  margin-left: 120px;
-  margin-right: 80px;
+  flex-direction: column;
 }
 
 .container-footer-icon {
-  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  gap:76px;
 }
 .footer-media-title {
   font-weight: 500;
@@ -604,7 +619,11 @@ align-items: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 72px;
+
+  
 }
 .footer-list-icon {
   display: flex;
@@ -630,13 +649,17 @@ align-items: center;
 }
 
 .footer-subscribe{
-  width: 453px;
+  min-width: 453px;
 }
 .footer-input {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 24px;
   margin-top: 16px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
  
 }
 .footer-input-email{
@@ -647,14 +670,13 @@ align-items: center;
   letter-spacing: 0.04em;
   color: var(--accent-color-hero);
   padding: 8px 16px;
-  width: 264px;
+  width: 398px;
   height: 40px;
   border: 1px solid var(--accent-color-hero);
   border-radius: 4px;
   background-color: transparent;
-}
   
-
+}
 
 .footer-input-email::placeholder {
   font-size: 12px;
