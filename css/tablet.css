@@ -50,7 +50,11 @@
 
   .accent {
     margin-right: 0;
+    color: var(--accent-color);
   }
+    .accent-header-class:visited {
+      color: var(--button-color-hover);
+    }
 
   
 
