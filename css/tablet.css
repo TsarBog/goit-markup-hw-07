@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
   }
 
   .mob-menu {
@@ -87,7 +87,7 @@
     position: absolute;
     width: 100%;
     height: 4px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     border-radius: 2px;
     left: 0px;
     top: 50px;
@@ -155,7 +155,8 @@
     max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 36px;
+    margin: 0 auto;
+    margin-bottom: 0;
   }
 
   .title-section {
@@ -180,36 +181,58 @@
     margin-right: auto;
   }
 
-  .container-footer-icon {
-    padding-right: ;
-  }
-  .footer-logo {
-    text-align: left;
-    justify-content: left;
-  }
-  .footer-media-title {
-    text-align: left;
-    justify-content: left;
-  }
+ .footer-logo {
+   text-align: left;
+   justify-content: left;
+ }
 
-  .container-footer-icon {
-    display: flex;
-  }
+ .footer-media-title {
+   text-align: left;
+   justify-content: left;
+ }
 
-  .footer-media-title {
-    margin-top: 0;
-  }
+ .container-footer-icon {
+   display: flex;
+ }
+.footer-container + .container-footer-new{
+  padding-bottom: 45px;
+  display: flex;
+ }
 
-  .footer-subscribe {
-    min-width: 453px;
-  }
+ .footer-media-title {
+   margin-top: 0;
+ }
 
-  .footer-input {
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
+ .footer-subscribe {
+   min-width: 453px;
+   margin-right: 100px;
+ }
 
-  .footer-input-email {
-    max-width: 264px;
-  }
+ .footer-input {
+   flex-direction: row;
+   flex-wrap: nowrap;
+ }
+
+ .footer-input-email {
+   max-width: 264px;
+ }
+ .modal {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(1) rotate(1turn);
+   transition: transform var(--transition-dur-time);
+   max-width: 392px;
+   width: calc(100% - 36px);
+   max-height: 586px;
+   background: #fcfcfc;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 4px;
+   padding-left: 24px;
+   padding-right: 24px;
+   padding-top: 72px;
+   padding-bottom: 24px;
+ }
+
 }
