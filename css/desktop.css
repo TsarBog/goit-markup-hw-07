@@ -459,5 +459,6 @@
        padding-right: 24px;
        padding-top: 72px;
        padding-bottom: 24px;
+       overflow-y: hidden;
      }
 }
