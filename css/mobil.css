@@ -128,7 +128,7 @@
 .mob-menu-social-list {
   display: flex;
   justify-content: space-between;
-  gap: 56px;
+  gap: 0;
 }
 
 .mob-menu-social-list-link {
@@ -269,6 +269,7 @@ button {
   margin-bottom: 8px;
   height: auto;
   text-align: center;
+  margin-top: 0;
 }
 
 /* Section */
